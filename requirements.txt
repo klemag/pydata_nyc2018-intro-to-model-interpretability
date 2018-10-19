@@ -1,5 +1,5 @@
 lime
-shap
+shap==0.24
 scikit-image
 keras
 scikit-learn==0.20
