@@ -7,3 +7,4 @@ pandas
 eli5
 xgboost
 jupyter
+tensorflow
