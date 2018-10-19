@@ -21,9 +21,13 @@ def convert_to_lime_format(X, categorical_names, col_names=None, invert=False):
 
     for k, v in categorical_names.items():
         if not invert:
-            label_map = {str_label: int_label for int_label, str_label in enumerate(v)}
+            label_map = {
+                str_label: int_label for int_label, str_label in enumerate(v)
+            }
         else:
-            label_map = {int_label: str_label for int_label, str_label in enumerate(v)}
+            label_map = {
+                int_label: str_label for int_label, str_label in enumerate(v)
+            }
 
         X_lime.iloc[:, k] = X_lime.iloc[:, k].map(label_map)
 
