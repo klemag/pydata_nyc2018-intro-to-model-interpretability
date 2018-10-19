@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+__pycache__
+.vscode/
+venv
+explanation.html
+*Copy*ipynb
+Untitled.ipynb
+data/
+!data/bank-additional/bank-additional-full.csv
+!data/toucan.jpg
