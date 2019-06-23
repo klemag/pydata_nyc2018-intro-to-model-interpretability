@@ -2,7 +2,7 @@
 
 ## Slides
 
-Available [here](https://speakerdeck.com/klemag/open-the-black-box-an-introduction-to-model-interpretability-with-lime-and-shap)
+Available [here](https://speakerdeck.com/klemag/pydata-nyc-2018-open-the-black-box-an-introduction-to-model-interpretability-with-lime-and-shap)
 
 
 ## Setup instructions
